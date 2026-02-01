@@ -21,7 +21,7 @@ export const Team: React.FC<TeamProps> = ({TEAM,title}) => {
           </p>
         </div>
 
-        <div className={isFour ? "grid grid-cols-2 gap-16 place-items-center" : "flex flex-wrap justify-center gap-8"}>
+        <div className="flex flex-wrap justify-center gap-8">
           {TEAM.map((member) => (
             <div key={member.id} className={`relative group ${isFour ? "w-96" : "w-80 flex-shrink-0"}`}>
               <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-blue-600 rounded-xl blur opacity-25 group-hover:opacity-75 transition duration-500"></div>
