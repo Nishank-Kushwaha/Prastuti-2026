@@ -1,7 +1,7 @@
 ## Phase One: Basics of Programming
 
 Welcome! 🎯 This is your starter roadmap if you are new to web development.
-In this phase, you will learn the three core building blocks of the web: HTML, **CSS (with Tailwind), and **JavaScript.
+In this phase, you will learn the three core building blocks of the web: **HTML**, **CSS** (with Tailwind), and **JavaScript**.
 
 ### 1. HTML – Structure of the Web 🧱
 
