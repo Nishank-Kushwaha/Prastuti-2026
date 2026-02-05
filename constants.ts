@@ -53,6 +53,16 @@ export const EVENTS: Event[] = [
     image: '/assets/events/codigo-workshop.webp',
     teamSize: 0
   },
+  {
+    id: '6',
+    title: 'Hackoverflow Workshop - Unlock phase 1',
+    category: 'Workshop',
+    description: 'Get the kickstart and learn the magic of web development - unlocking phase 1',
+    date: 'February 6, 2026',
+    time: '6:30 PM',
+    image: '/assets/events/web1.jpg',
+    teamSize: 0 
+  }
 ];
 
 export const TEAM_CORE: TeamMember[] = [
