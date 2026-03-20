@@ -1,5 +1,6 @@
 import { Event, TeamMember, Speaker } from "./types";
 export const FEST_DATES = "March 21-22, 2026";
+
 export const FEST_NAME = "Prastuti '26";
 
 export const EVENTS: Event[] = [
