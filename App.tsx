@@ -15,6 +15,7 @@ import { Login } from "./components/Auth";
 import { Registration } from "./components/Registration";
 import { Analytics } from "@vercel/analytics/react";
 import Sponsors from "./components/Sponsors";
+import { OverallSpeakers } from "./components/OverallSpeakers";
 
 interface User {
   name: string;
@@ -63,6 +64,7 @@ const App: React.FC = () => {
               <Route path="/login" element={<Login />} />
               <Route path="/register" element={<Registration />} />
               <Route path="/sponsors" element={<Sponsors />} />
+              <Route path="/speakers" element={<OverallSpeakers />} />
             </Routes>
           </main>
           <Footer />
