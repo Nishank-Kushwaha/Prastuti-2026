@@ -80,7 +80,8 @@ export const Schedule: React.FC = () => {
                             
                             <div className={`inline-block px-3 py-1 rounded-full text-xs font-semibold mb-3 border ${
                               event.category === 'Competition' ? 'bg-purple-500/10 text-purple-300 border-purple-500/30' :
-                              event.category === 'Workshop' ? 'bg-green-500/10 text-green-300 border-green-500/30' :
+                              event.category === 'Workshop' ? 'bg-green-500/10 text-green-300 border-green-500/30' : 
+                              event.category === 'Ceremony' ? 'bg-amber-500/10 text-amber-300 border-amber-500/30' :
                               'bg-blue-500/10 text-blue-300 border-blue-500/30'
                             }`}>
                               {event.category}
