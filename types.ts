@@ -1,7 +1,7 @@
 export interface Event {
   id: string;
   title: string;
-  category: "Competition" | "Workshop" | "Guest Lecture";
+  category: "Competition" | "Workshop" | "Guest Lecture" | "Ceremony";
   description: string;
   date: string;
   time: string;

@@ -46,6 +46,14 @@ export const EVENTS: Event[] = [
     time: "2:30 PM",
     image: "/assets/events/saic.webp",
     teamSize: 0,
+    id: '1',
+    title: 'Student Alumni Interaction',
+    category: 'Guest Lecture',
+    description: 'Forever united by our alma mater, bound by memories, and connected by purpose.',
+    date: 'February 2, 2026',
+    time: '2:30 PM',
+    image: '/assets/events/saic.webp',
+    teamSize: 0
   },
   {
     id: "5",
@@ -56,6 +64,14 @@ export const EVENTS: Event[] = [
     time: "6:30 PM",
     image: "/assets/events/codigo-workshop.webp",
     teamSize: 0,
+    id: '2',
+    title: 'Codigo - CP Workshop 1',
+    category: 'Workshop',
+    description: 'Brushing up the Basics',
+    date: 'February 2, 2026',
+    time: '6:30 PM',
+    image: '/assets/events/codigo-workshop.webp',
+    teamSize: 0
   },
   {
     id: "6",
@@ -68,6 +84,115 @@ export const EVENTS: Event[] = [
     image: "/assets/events/web1.jpg",
     teamSize: 0,
   },
+    id: '3',
+    title: 'Hackoverflow Workshop - Unlock phase 1',
+    category: 'Workshop',
+    description: 'Get the kickstart and learn the magic of web development - unlocking phase 1',
+    date: 'February 6, 2026',
+    time: '6:30 PM',
+    image: '/assets/events/web1.jpg',
+    teamSize: 0 
+  },
+  {
+    id: '4',
+    title: 'Opening Ceremony',
+    category: 'Ceremony',
+    description: 'Kicking off Prastuti \'26.',
+    date: 'March 21, 2026',
+    time: '10:00 AM',
+    image: '',
+    teamSize: 0
+  },
+  {
+    id: '5',
+    title: 'Intelligence Reimagined with Dr. Manish Gupta',
+    category: 'Guest Lecture',
+    description: 'An insightful session on the future of intelligence.',
+    date: 'March 21, 2026',
+    time: '11:00 AM',
+    image: '',
+    teamSize: 0
+  },
+  {
+    id: '6',
+    title: 'The Circuit Quest',
+    category: 'Competition',
+    description: 'Put your electronics skills to the test in this hardware challenge.',
+    date: 'March 21, 2026',
+    time: '3:00 PM',
+    image: '',
+    teamSize: 2
+  },
+  {
+    id: '7',
+    title: 'Hackoverflow Presentation',
+    category: 'Competition',
+    description: 'Project showcases from the Hackoverflow participants.',
+    date: 'March 21, 2026',
+    time: '4:00 PM',
+    image: '/assets/events/hackoverflow.webp',
+    teamSize: 2
+  },
+  {
+    id: '8',
+    title: 'Codigo Final Contest',
+    category: 'Competition',
+    description: 'The ultimate coding showdown involving the application of various data structures and algorithms.',
+    date: 'March 21, 2026',
+    time: '5:00 PM',
+    image: '/assets/events/codigo.webp',
+    teamSize: 1
+  },
+  {
+    id: '9',
+    title: 'Consilium Presentation',
+    category: 'Competition',
+    description: 'Final presentations for the Consilium hardware implementation event.',
+    date: 'March 22, 2026',
+    time: '10:00 AM',
+    image: '/assets/events/consilium.webp',
+    teamSize: 2
+  },
+  {
+    id: '10',
+    title: 'Energy Conclave with Chetan Singh Solanki',
+    category: 'Guest Lecture',
+    description: 'A deep dive into sustainable energy solutions.',
+    date: 'March 22, 2026',
+    time: '11:00 AM',
+    image: '',
+    teamSize: 0
+  },
+  {
+    id: '11',
+    title: 'Geopolitics Decoded with Dr. Rajiv Dogra',
+    category: 'Guest Lecture',
+    description: 'Understanding global geopolitical dynamics.',
+    date: 'March 22, 2026',
+    time: '3:00 PM',
+    image: '',
+    teamSize: 0
+  },
+  {
+    id: '12',
+    title: 'Prize Distribution',
+    category: 'Ceremony',
+    description: 'Celebrating the winners and top performers of Prastuti \'26.',
+    date: 'March 22, 2026',
+    time: '4:00 PM',
+    image: '',
+    teamSize: 0
+  },
+  {
+    id: '13',
+    title: 'Cultural Event',
+    category: 'Ceremony',
+    description: 'Closing out the fest with fantastic cultural performances.',
+    date: 'March 22, 2026',
+    time: '5:00 PM',
+    image: '',
+    teamSize: 0
+  }
 ];
 
 export const TEAM_CORE: TeamMember[] = [
